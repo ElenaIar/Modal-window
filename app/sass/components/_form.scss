@@ -1,0 +1,35 @@
+.modal_window .form-group{
+	margin-bottom: 0px;
+}
+.modal_window h3{
+	margin: 20px 0px;
+	font-size: 12px;
+	line-height: normal;
+}
+.modal_window .form-control{
+	height: 38px;
+	padding: 12px 14px 16px 14px;
+	border-radius: 2px;
+}
+#personal_info{
+	border-bottom: 2px #dedede solid;
+	padding-bottom: 9px;
+}
+.modal_window .form-group input{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.form_info input{
+	-webkit-box-shadow: inset 0px -7px 0px 0px rgba(0,0,0,0.05);
+	-moz-box-shadow: inset 0px -7px 0px 0px rgba(0,0,0,0.05);
+	box-shadow: inset 0px -7px 0px 0px rgba(0,0,0,0.05);
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+.form_info input:hover{
+	-webkit-box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.05);
+	-moz-box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.05);
+	box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.05);
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}

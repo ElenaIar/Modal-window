@@ -1,0 +1,20 @@
+footer 
+	.background_modal_window#open_background
+		.modal_window#open_window
+			input(type="button" id="close_modal_window")
+			h2 Signup form freebie
+			form.form_info
+				.form-group#personal_info
+					h3 Enter your personal info
+					input(type="text" class="form-control" id="first_name" placeholder="First name")
+					input(type="text" class="form-control" id="last_name" placeholder="Last name")
+				.form-group
+					h3 Enter your account info
+					input(type="email" class="form-control" id="email" placeholder="Email address")
+					input(type="password" class="form-control" id="password" placeholder="Password")
+					input(type="password" class="form-control" id="confirm_password" placeholder="Confirm password")
+			button.register register your account now
+	p.copyright Copyright. All rights reserved.
+
+script(src="./libs/jquery/jquery-3.2.1.min.js")
+script(src="./js/common.js")

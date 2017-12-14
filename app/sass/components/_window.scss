@@ -1,0 +1,80 @@
+#open_window{
+	display: none;
+}
+.modal_window{
+	width: 400px;
+	height: 502px;
+	background-color: #eeeeee;
+	color: #bbbbbb;
+	font-family: "ArialRegular", sans-serif;
+	-webkit-box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.2),
+						inset 0px -10px 0px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.2),
+					inset 0px -10px 0px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.2),
+				inset 0px -10px 0px 0px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 50%;
+	margin-top: -256px;
+	padding: 40px 40px 0px 40px;
+}
+#close_modal_window{
+	background: url(../img/close_button3.png) 50% 50% no-repeat;
+	background-size: contain;
+	width: 28px;
+	height: 28px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	position: absolute;
+	margin-left: 346px;
+	margin-top: -55px;
+	opacity: 0.9;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+#close_modal_window:hover{
+	opacity: 1;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+.modal_window h2{
+	padding-bottom: 15px;
+	border-bottom: 2px #dedede solid;
+	font-size: 24px;
+	margin: 0px;
+}
+.register{
+	width: 100%;
+	color: #ffffff;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: "ArialBold", sans-serif;
+	padding: 12px 40px 24px 40px;
+	margin-top: 10px;
+	height: 50px;
+	border: none;
+	background: #3683a9;
+	background: -webkit-linear-gradient(#84c3d8, #16557e);
+	background: -o-linear-gradient(#84c3d8, #16557e);
+	background: -moz-linear-gradient(#84c3d8, #16557e);
+	background: linear-gradient(#84c3d8, #16557e);
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-box-shadow: inset 0px -10px 0px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: inset 0px -10px 0px 0px rgba(0,0,0,0.2);
+	box-shadow: inset 0px -10px 0px 0px rgba(0,0,0,0.2);
+}
+.register:hover{
+	background: #ffffff;
+	background: -webkit-linear-gradient(#ffffff, #84c3d8);
+	background: -o-linear-gradient(#ffffff, #84c3d8);
+	background: -moz-linear-gradient(#ffffff, #84c3d8);
+	background: linear-gradient(#ffffff, #84c3d8);
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	color: #16557e;
+}
